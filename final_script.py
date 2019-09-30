@@ -199,7 +199,7 @@ def empty_spaces(list_empty_spaces):
 
     positions_list_empty_spaces = []
     for i in range(len(reduced_list_empty_spaces)):
-        if reduced_list_empty_spaces[i] >= average * 2.2: # TODO what is the most correct value?
+        if reduced_list_empty_spaces[i] >= average * 1.5: # TODO what is the most correct value?
             positions_list_empty_spaces.append(i + 1)
 
     return positions_list_empty_spaces
