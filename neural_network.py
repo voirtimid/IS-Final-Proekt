@@ -15,6 +15,8 @@ from keras import metrics
 from matplotlib import pyplot
 import keras.backend as K
 from sklearn.metrics import roc_curve, auc
+from itertools import cycle
+from scipy import interp
 
 def f1_score(y_true, y_pred):
 
