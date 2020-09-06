@@ -1,4 +1,6 @@
 # System for cyrilic handwritten letter/text recognition
+## FINKI, Intelligent Systems
+## Team members: Dushica Jankovikj (161509) and Oliver Dimitriov (161535) 
 
 ### Project main goal and idea
 - Build a system that would recognize cyrillic handwritten letters from images.
